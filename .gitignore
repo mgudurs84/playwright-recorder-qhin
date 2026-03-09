@@ -1,0 +1,4 @@
+.env
+commonwell-session.json
+node_modules/
+*.png

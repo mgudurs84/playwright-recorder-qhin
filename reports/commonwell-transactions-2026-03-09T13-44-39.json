@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "generatedAt": "2026-03-09T13:44:39.425Z",
+    "totalRecords": 20,
+    "module": "Transaction Logs",
+    "dateFrom": "03/02/2026",
+    "dateTo": "03/09/2026",
+    "totalOnServer": 20,
+    "filters": "none"
+  },
+  "records": [
+    {
+      "Timestamp": "03/09/2026 07:38:19.130",
+      "transactionId": "019cd264107a7400bda39c2040511e2e",
+      "transactionType": "CreatePatient",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "139.23ms",
+      "status": "Successful"
+    },
+    {
+      "Timestamp": "03/09/2026 07:38:18.423",
+      "transactionId": "019cd2640db77dfca32bae1b29ad7809",
+      "transactionType": "GetPatientByPatientId",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "12.63ms",
+      "status": "ClientError"
+    },
+    {
+      "Timestamp": "03/09/2026 07:36:56.579",
+      "transactionId": "019cd262ce03787fbaacf044915c9b18",
+      "transactionType": "DeletePatientByPatientId",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "44.33ms",
+      "status": "Successful"
+    },
+    {
+      "Timestamp": "03/09/2026 07:35:03.495",
+      "transactionId": "019cd2611447728fbffd845b90c2f72a",
+      "transactionType": "GetDocument_R4",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "41400.02ms",
+      "status": "Successful"
+    },
+    {
+      "Timestamp": "03/09/2026 07:35:02.571",
+      "transactionId": "019cd26110ab753faa25718d83113a31",
+      "transactionType": "GetPatientLinks",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "247.73ms",
+      "status": "Successful"
+    },
+    {
+      "Timestamp": "03/09/2026 07:34:59.629",
+      "transactionId": "019cd261052d7bffad8db4a666cd5f79",
+      "transactionType": "",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "1324.49ms",
+      "status": "Successful"
+    },
+    {
+      "Timestamp": "03/09/2026 07:34:59.028",
+      "transactionId": "019cd26102d4773b807e818617335b69",
+      "transactionType": "CreatePatient",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "32.23ms",
+      "status": "Successful"
+    },
+    {
+      "Timestamp": "03/09/2026 07:34:58.271",
+      "transactionId": "019cd260ffdf788f9bb7be31c5e37eeb",
+      "transactionType": "GetPatientByPatientId",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "26.06ms",
+      "status": "Successful"
+    },
+    {
+      "Timestamp": "03/09/2026 07:31:08.371",
+      "transactionId": "019cd25d7dd37ca0b27df8d3cfee8c41",
+      "transactionType": "GetDocument_R4",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "41394.06ms",
+      "status": "Successful"
+    },
+    {
+      "Timestamp": "03/09/2026 07:31:06.734",
+      "transactionId": "019cd25d776e7acf9bf26445acbc6693",
+      "transactionType": "GetPatientLinks",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "233.18ms",
+      "status": "Successful"
+    },
+    {
+      "Timestamp": "03/09/2026 07:29:30.049",
+      "transactionId": "019cd25bfdc1794fb5dcf74985bf5fe0",
+      "transactionType": "",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "5422.69ms",
+      "status": "Successful"
+    },
+    {
+      "Timestamp": "03/09/2026 07:29:29.335",
+      "transactionId": "019cd25bfaf771fe8a5e72000fe587f3",
+      "transactionType": "CreatePatient",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "144.44ms",
+      "status": "Successful"
+    },
+    {
+      "Timestamp": "03/09/2026 07:29:28.666",
+      "transactionId": "019cd25bf85a720abde919c411d070f5",
+      "transactionType": "GetPatientByPatientId",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "13.03ms",
+      "status": "ClientError"
+    },
+    {
+      "Timestamp": "03/09/2026 07:26:59.161",
+      "transactionId": "019cd259b05979498ced59c4df0374f1",
+      "transactionType": "DeletePatientByPatientId",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "87.03ms",
+      "status": "Successful"
+    },
+    {
+      "Timestamp": "03/09/2026 07:23:57.023",
+      "transactionId": "019cd256e8df7f6cb99cae2f9b9f0274",
+      "transactionType": "GetDocument_R4",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "41660.77ms",
+      "status": "Successful"
+    },
+    {
+      "Timestamp": "03/09/2026 07:23:55.979",
+      "transactionId": "019cd256e4cb754bbd4dd1785082a5a9",
+      "transactionType": "GetPatientLinks",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "234.68ms",
+      "status": "Successful"
+    },
+    {
+      "Timestamp": "03/09/2026 07:22:22.864",
+      "transactionId": "019cd255791077f9ba8d7e39e672e430",
+      "transactionType": "",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "1736.05ms",
+      "status": "Successful"
+    },
+    {
+      "Timestamp": "03/09/2026 07:22:22.143",
+      "transactionId": "019cd255763f7653be69adbbc612ecf0",
+      "transactionType": "CreatePatient",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "150.82ms",
+      "status": "Successful"
+    },
+    {
+      "Timestamp": "03/09/2026 07:22:21.471",
+      "transactionId": "019cd255739f7a6498e50889d99eb1f1",
+      "transactionType": "GetPatientByPatientId",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "13.06ms",
+      "status": "ClientError"
+    },
+    {
+      "Timestamp": "03/09/2026 07:21:10.671",
+      "transactionId": "019cd2545f0f78a595f2bd90fe0281f0",
+      "transactionType": "DeletePatientByPatientId",
+      "initiatingOrganization.memberName": "",
+      "initiatingOrganization.organizationId": "",
+      "Duration": "69.57ms",
+      "status": "Successful"
+    }
+  ]
+}

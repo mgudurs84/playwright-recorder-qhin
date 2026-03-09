@@ -1,0 +1,15 @@
+{
+  "name": "commonwell-automation",
+  "version": "1.0.0",
+  "description": "CommonWell Management Portal automated login with manual OTP support",
+  "main": "commonwell-login.js",
+  "scripts": {
+    "start": "node commonwell-login.js",
+    "setup-scheduler": "node setup-scheduler.js"
+  },
+  "dependencies": {
+    "playwright": "^1.50.0",
+    "dotenv": "^16.4.0",
+    "node-notifier": "^10.0.1"
+  }
+}

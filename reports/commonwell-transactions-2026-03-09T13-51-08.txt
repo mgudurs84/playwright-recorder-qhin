@@ -1,0 +1,82 @@
+════════════════════════════════════════════════════════════════════════════════
+  COMMONWELL TRANSACTION LOGS SUMMARY
+════════════════════════════════════════════════════════════════════════════════
+  Report Generated  : 3/9/2026, 9:51:08 AM
+  Date Range        : 03/02/2026 → 03/09/2026
+  Total Records     : 20 (of 20 on server)
+  Active Filters    : none
+════════════════════════════════════════════════════════════════════════════════
+
+  STATUS OVERVIEW
+  ──────────────────────────────────────────────────
+  ✅ Successful                :     17 (85.0%)
+  ❌ ClientError               :      3 (15.0%)
+
+  TRANSACTION TYPE BREAKDOWN
+  ────────────────────────────────────────────────────────────
+
+  📋 CreatePatient
+     Count     : 4
+     Success   : 4  |  Failed: 0
+     Avg Dur   : 116.68ms
+     Summary   : Patient records created in CommonWell network.
+
+  📋 GetPatientByPatientId
+     Count     : 4
+     Success   : 1  |  Failed: 3
+     Avg Dur   : 16.20ms
+     Summary   : Patient lookups by ID — verifying patient existence.
+
+  📋 DeletePatientByPatientId
+     Count     : 3
+     Success   : 3  |  Failed: 0
+     Avg Dur   : 66.98ms
+     Summary   : Patient records removed from CommonWell network.
+
+  📋 GetDocument_R4
+     Count     : 3
+     Success   : 3  |  Failed: 0
+     Avg Dur   : 41484.95ms
+     Summary   : FHIR R4 document queries — searching clinical documents.
+
+  📋 GetPatientLinks
+     Count     : 3
+     Success   : 3  |  Failed: 0
+     Avg Dur   : 238.53ms
+     Summary   : Patient link queries across connected organizations.
+
+  📋 Unknown
+     Count     : 3
+     Success   : 3  |  Failed: 0
+     Avg Dur   : 2827.74ms
+     Summary   : Unknown operations performed.
+
+════════════════════════════════════════════════════════════════════════════════
+  DETAILED RECORDS (showing 20 of 20)
+════════════════════════════════════════════════════════════════════════════════
+  Timestamp             Transaction ID        Transaction Type      Member Name           Initiating Org ID     Duration              Status                
+  ────────────────────────────────────────────────────────────────────────────────
+  03/09/2026 07:38:19.  019cd264107a7400bda3  CreatePatient                                                     139.23ms              Successful            
+  03/09/2026 07:38:18.  019cd2640db77dfca32b  GetPatientByPatientI                                              12.63ms               ClientError           
+  03/09/2026 07:36:56.  019cd262ce03787fbaac  DeletePatientByPatie                                              44.33ms               Successful            
+  03/09/2026 07:35:03.  019cd2611447728fbffd  GetDocument_R4                                                    41400.02ms            Successful            
+  03/09/2026 07:35:02.  019cd26110ab753faa25  GetPatientLinks                                                   247.73ms              Successful            
+  03/09/2026 07:34:59.  019cd261052d7bffad8d                                                                    1324.49ms             Successful            
+  03/09/2026 07:34:59.  019cd26102d4773b807e  CreatePatient                                                     32.23ms               Successful            
+  03/09/2026 07:34:58.  019cd260ffdf788f9bb7  GetPatientByPatientI                                              26.06ms               Successful            
+  03/09/2026 07:31:08.  019cd25d7dd37ca0b27d  GetDocument_R4                                                    41394.06ms            Successful            
+  03/09/2026 07:31:06.  019cd25d776e7acf9bf2  GetPatientLinks                                                   233.18ms              Successful            
+  03/09/2026 07:29:30.  019cd25bfdc1794fb5dc                                                                    5422.69ms             Successful            
+  03/09/2026 07:29:29.  019cd25bfaf771fe8a5e  CreatePatient                                                     144.44ms              Successful            
+  03/09/2026 07:29:28.  019cd25bf85a720abde9  GetPatientByPatientI                                              13.03ms               ClientError           
+  03/09/2026 07:26:59.  019cd259b05979498ced  DeletePatientByPatie                                              87.03ms               Successful            
+  03/09/2026 07:23:57.  019cd256e8df7f6cb99c  GetDocument_R4                                                    41660.77ms            Successful            
+  03/09/2026 07:23:55.  019cd256e4cb754bbd4d  GetPatientLinks                                                   234.68ms              Successful            
+  03/09/2026 07:22:22.  019cd255791077f9ba8d                                                                    1736.05ms             Successful            
+  03/09/2026 07:22:22.  019cd255763f7653be69  CreatePatient                                                     150.82ms              Successful            
+  03/09/2026 07:22:21.  019cd255739f7a6498e5  GetPatientByPatientI                                              13.06ms               ClientError           
+  03/09/2026 07:21:10.  019cd2545f0f78a595f2  DeletePatientByPatie                                              69.57ms               Successful            
+
+════════════════════════════════════════════════════════════════════════════════
+  END OF REPORT
+════════════════════════════════════════════════════════════════════════════════

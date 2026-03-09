@@ -1,0 +1,88 @@
+════════════════════════════════════════════════════════════════════════════════
+  COMMONWELL TRANSACTION LOGS SUMMARY
+════════════════════════════════════════════════════════════════════════════════
+  Report Generated  : 3/8/2026, 4:23:32 PM
+  Date Range        : 03/01/2026 → 03/08/2026
+  Total Records     : 20 (of 20 on server)
+  Active Filters    : none
+════════════════════════════════════════════════════════════════════════════════
+
+  STATUS OVERVIEW
+  ──────────────────────────────────────────────────
+  ✅ Successful                :     18 (90.0%)
+  ❌ ClientError               :      2 (10.0%)
+
+  TRANSACTION TYPE BREAKDOWN
+  ────────────────────────────────────────────────────────────
+
+  📋 GetBinary_R4
+     Count     : 6
+     Success   : 6  |  Failed: 0
+     Avg Dur   : 177.02ms
+     Summary   : FHIR R4 binary retrieval — downloading document content.
+
+  📋 Unknown
+     Count     : 3
+     Success   : 3  |  Failed: 0
+     Avg Dur   : 4302.14ms
+     Summary   : Unknown operations performed.
+
+  📋 CreatePatient
+     Count     : 3
+     Success   : 3  |  Failed: 0
+     Avg Dur   : 411.84ms
+     Summary   : Patient records created in CommonWell network.
+
+  📋 GetPatientByPatientId
+     Count     : 3
+     Success   : 1  |  Failed: 2
+     Avg Dur   : 49.10ms
+     Summary   : Patient lookups by ID — verifying patient existence.
+
+  📋 GetDocument_R4
+     Count     : 2
+     Success   : 2  |  Failed: 0
+     Avg Dur   : 43186.47ms
+     Summary   : FHIR R4 document queries — searching clinical documents.
+
+  📋 GetPatientLinks
+     Count     : 2
+     Success   : 2  |  Failed: 0
+     Avg Dur   : 991.59ms
+     Summary   : Patient link queries across connected organizations.
+
+  📋 DeletePatientByPatientId
+     Count     : 1
+     Success   : 1  |  Failed: 0
+     Avg Dur   : 68.41ms
+     Summary   : Patient records removed from CommonWell network.
+
+════════════════════════════════════════════════════════════════════════════════
+  DETAILED RECORDS (showing 20 of 20)
+════════════════════════════════════════════════════════════════════════════════
+  Timestamp             Transaction ID        Transaction Type      Member Name           Initiating Org ID     Duration              Status                
+  ────────────────────────────────────────────────────────────────────────────────
+  03/06/2026 18:49:11.  019cc557318f77c086fb  GetDocument_R4                                                    43244.5ms             Successful            
+  03/06/2026 18:49:10.  019cc5572ab9721596e5  GetPatientLinks                                                   989.03ms              Successful            
+  03/06/2026 18:49:07.  019cc5571f9c76cfa3fd                                                                    1971.03ms             Successful            
+  03/06/2026 18:49:06.  019cc5571d4071c98cfb  CreatePatient                                                     47.07ms               Successful            
+  03/06/2026 18:49:05.  019cc5571a707929908b  GetPatientByPatientI                                              27.42ms               Successful            
+  03/06/2026 18:48:21.  019cc5566de27ff9a1e8                                                                    6735.64ms             Successful            
+  03/06/2026 18:48:20.  019cc556696f75c7837d  CreatePatient                                                     572.89ms              Successful            
+  03/06/2026 18:48:19.  019cc556666171c98f58  GetPatientByPatientI                                              25.81ms               ClientError           
+  03/06/2026 18:46:49.  019cc55505b879759bdd  DeletePatientByPatie                                              68.41ms               Successful            
+  03/06/2026 18:45:02.  019cc5536507761fb018  GetBinary_R4                                                      141.63ms              Successful            
+  03/06/2026 18:45:02.  019cc55364e0750f9a3d  GetBinary_R4                                                      205.84ms              Successful            
+  03/06/2026 18:45:02.  019cc55364dc71dfa9ff  GetBinary_R4                                                      218.6ms               Successful            
+  03/06/2026 18:45:02.  019cc55364617d719c73  GetBinary_R4                                                      123.84ms              Successful            
+  03/06/2026 18:45:02.  019cc553643378dfb201  GetBinary_R4                                                      141.88ms              Successful            
+  03/06/2026 18:45:02.  019cc55363d279dd8c92  GetBinary_R4                                                      230.32ms              Successful            
+  03/06/2026 18:44:14.  019cc552a6af7a64b9db  GetDocument_R4                                                    43128.44ms            Successful            
+  03/06/2026 18:44:12.  019cc5529edd7856a9fc  GetPatientLinks                                                   994.15ms              Successful            
+  03/06/2026 18:42:36.  019cc5512b3672528220                                                                    4199.75ms             Successful            
+  03/06/2026 18:42:35.  019cc55126d17a0abc7d  CreatePatient                                                     615.56ms              Successful            
+  03/06/2026 18:42:35.  019cc551239971649de1  GetPatientByPatientI                                              94.08ms               ClientError           
+
+════════════════════════════════════════════════════════════════════════════════
+  END OF REPORT
+════════════════════════════════════════════════════════════════════════════════
